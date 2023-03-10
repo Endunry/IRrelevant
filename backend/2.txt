@@ -1,0 +1,25 @@
+### Bigramm ###
+Gesamtvokabular: 83217
+Gesamtanzahl der Woerter: 157990
+Gesamttokens: 83217
+Die 20 häufigsten Woerter:
+of the (2400)
+in the (1522)
+to the (459)
+and the (401)
+on the (314)
+of a (296)
+to be (259)
+patients with (254)
+from the (242)
+that the (241)
+with the (237)
+it is (216)
+for the (204)
+by the (202)
+in a (201)
+has been (166)
+with a (148)
+and in (146)
+of these (144)
+have been (143)

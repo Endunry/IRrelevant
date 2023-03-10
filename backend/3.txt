@@ -1,0 +1,25 @@
+### Trigramm ###
+Gesamtvokabular: 133289
+Gesamtanzahl der Woerter: 156957
+Gesamttokens: 133289
+Die 20 häufigsten Woerter:
+the presence of (76)
+as well as (72)
+the development of (56)
+the effect of (54)
+in patients with (52)
+the use of (48)
+found to be (45)
+the basis of (45)
+on the basis (44)
+ventricular septal defect (43)
+the effects of (40)
+by means of (39)
+there was no (37)
+changes in the (36)
+it is suggested (36)
+a case of (35)
+the treatment of (35)
+is suggested that (35)
+found in the (34)
+of growth hormone (34)

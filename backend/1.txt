@@ -1,0 +1,25 @@
+### Unigramm ###
+Gesamtvokabular: 14853
+Gesamtanzahl der Woerter: 159023
+Gesamttokens: 14853
+Die 20 häufigsten Woerter:
+the (11231)
+of (9339)
+in (5336)
+and (4809)
+to (2698)
+a (2696)
+with (1889)
+is (1582)
+was (1498)
+were (1216)
+by (1205)
+that (970)
+for (924)
+from (831)
+be (821)
+as (807)
+are (750)
+on (743)
+this (657)
+patients (640)

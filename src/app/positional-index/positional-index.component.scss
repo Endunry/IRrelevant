@@ -1,0 +1,114 @@
+:host ::ng-deep {
+
+    .card{
+        height: 100vh;
+    }
+
+    .p-dataview{
+        height: 100vh !important;
+    }
+    
+    .p-dataview-header{
+        height: 75px !important;
+        > div{
+            align-items: center;
+        }
+    }
+
+  .med-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .med-id{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .med-text{
+    font-size: 0.7rem;
+  }
+#icon{
+    font-size: 2rem;
+    font-weight: 700;
+}
+  .med-list-item:before {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent calc((100vh - 75px - 2rem - 1.25rem - 4px - 2rem - 75px + 18px + 70px) / 30), #2a323d);
+  }
+  .p-dataview-content{
+    height: calc(100vh - 75px - 2rem - 1.25rem - 4px -  2rem - 75px + 18px + 70px)!important;
+  }
+
+  .med-list-item {
+    position:relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: calc((100vh - 75px - 2rem - 1.25rem - 4px - 2rem -  75px + 18px + 70px) / 9 - 2px) !important;
+    display: flex;
+    justify-content: start;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .p-paginator-bottom {
+    height: 75px;
+  }
+  .med-grid-item {
+    margin: .5em;
+    border: 1px solid #dee2e6;
+
+    .med-grid-item-top,
+    .med-grid-item-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    
+
+    .med-grid-item-content {
+      text-align: center;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 576px) {
+  :host ::ng-deep .med-list-item {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 75%;
+      margin: 2rem 0;
+    }
+
+    .med-list-detail {
+      text-align: center;
+    }
+
+    .med-price {
+      align-self: center;
+    }
+
+    .med-list-action {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .med-list-action {
+      margin-top: 2rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}
