@@ -37,7 +37,7 @@ class InvertedIndex(AbstractIndexer):
         self.tokens.sort(key = operator.itemgetter(1,0))
         
         for token in self.tokens:
-            if '.' in token[1]:
+            if '#' in token[1]:
                 continue
             if token[1] in self.invIndex:
                 self.invIndex[token[1]].add(token[0])
@@ -47,9 +47,9 @@ class InvertedIndex(AbstractIndexer):
     def markDocIds(self):
         currentDocId = 0
         for index,token in enumerate(self.tokens):
-            if '.' in token:
-                currentDocId = int(token[2:])
-                self.tokens[index] = (currentDocId, '.')
+            if '#' in token:
+                currentDocId = int(token[1:])
+                self.tokens[index] = (currentDocId, '#')
             else:
                 self.tokens[index] = (currentDocId, token)
     
